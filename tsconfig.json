@@ -1,0 +1,36 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"lib": [
+			"es5",
+			"es6",
+			"dom",
+			"dom.iterable"
+		],
+		"moduleResolution": "node",
+		"noEmitOnError": true,
+		"noImplicitAny": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"outDir": ".",
+		"removeComments": false,
+		"sourceMap": false,
+		"types": [
+			"node"
+		],
+		"module": "es2022",
+		"target": "es2022",
+		"ignoreDeprecations": "5.0",
+		"esModuleInterop": true,
+		"allowJs": false,
+		"resolveJsonModule": true
+	},
+	"exclude": [
+		"node_modules/*",
+	],
+	"include": [
+		"./*",
+	]
+}
